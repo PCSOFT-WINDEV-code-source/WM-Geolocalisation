@@ -1,0 +1,210 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WM Geolocalisation
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android Geolocalisation
+    internal_properties : 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
+    configuration_id : 7339801933960962290
+    type : 15
+    generation_directory : .\Exe\Android Geolocalisation
+    version : {}
+    language : 1
+    telemetry :
+     status : disabled
+  -
+    name : iOS Geolocalisation
+    internal_properties : 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
+    configuration_id : 4775419250351540325
+    type : 18
+    generation_directory : .\Exe\iOS Geolocalisation
+    version : {}
+    language : 1
+ elements :
+  identifier : 0x42cbe8be0024359e
+  elements :
+   -
+     name : FEN_Menu
+     identifier : 0x42cd548d004c2427
+     internal_properties : CAAAAAgAAABbNwMHpOHJ0usS1U64/+hNJWAszBDBOCigvZNdb7DaXuJuu+lsnHEruGReWtoW4tY+xg==
+     physical_name : .\FEN_Menu.wpw
+     type : 2
+   -
+     name : MDLC_PositionEnCours
+     identifier : 0x42ce7e300112d4b9
+     internal_properties : CAAAAAgAAABk4kxoVwwkx+4WCBqM6E+6OKvHL7tczZOg5WFPc7xQoFSKb2W8BTsTu2dRr3dpEYdx8Q==
+     physical_name : .\MDLC_PositionEnCOurs.wpt
+     type : 20
+   -
+     name : FEN_Edition_Magasin
+     identifier : 0x42d3cae800c1312f
+     internal_properties : CAAAAAgAAADva8fb6JWdThdkG1EA9Bvv64i2LpCZ1IhU0FRU9AsL1W+haEllm93FNODaJu7inhL6eg==
+     physical_name : .\FEN_Edition_Magasin.wpw
+     type : 2
+   -
+     name : FEN_GeoSuivi
+     identifier : 0x4a183c92037f607e
+     internal_properties : CAAAAAgAAAAHA2+zcC2FprcxJ8mzMqIu4eLsjEqD9s5UwAjgXNM7/cMJe2Uv1C7C1EiyDpZKNqoSEg==
+     physical_name : .\FEN_GeoSuivi.wdw
+     type : 2
+   -
+     name : COL_GeoSuivi
+     identifier : 0x4a182094024b08da
+     internal_properties : CAAAAAgAAAC5leElgv+3uAWD2WWcMAL6XSikhEiJALCg3XN931C6LoJevlr+xPAQZtrEPMQ8xDScpA==
+     physical_name : .\COL_GeoSuivi.wdg
+     type : 7
+  other_elements :
+   -
+     physical_name : .\MarqueurRepos.gif
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 7339801933960962290
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 4775419250351540325
+   -
+     physical_name : .\POI.gif
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 7339801933960962290
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 4775419250351540325
+   -
+     physical_name : .\Exe\Magasin.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 7339801933960962290
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 4775419250351540325
+        excluded : true
+   -
+     physical_name : .\Exe\Magasin.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 7339801933960962290
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 4775419250351540325
+        excluded : true
+   -
+     physical_name : .\Exe\iOS Geolocalisation\Magasin.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 7339801933960962290
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 4775419250351540325
+   -
+     physical_name : .\Exe\iOS Geolocalisation\Magasin.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 7339801933960962290
+        excluded : true
+      -
+        internal_properties : CAAAAAgAAAAz3SEk78lPftHHUZhlRo2CX5HwoQXnDS/l3jzY9UveE10OD9+t7o9vGQ==
+        configuration_id : 4775419250351540325
+   -
+     physical_name : .\Exe\Android Geolocalisation\Magasin.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 7339801933960962290
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 4775419250351540325
+        excluded : true
+   -
+     physical_name : .\Exe\Android Geolocalisation\Magasin.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 7339801933960962290
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 4775419250351540325
+        excluded : true
+  analysis : .\WM Geolocalisation.ana\WM Géolocalisation.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - fr-FR
+ wd_style_sheet : .\Android Géolocalisation.sty
+ wb_style_sheet : .\Android Géolocalisation.wws
+ code_elements :
+  internal_properties : CAAAAAgAAADOrZMMIhwO+RaqC6T+9HgHymtpPfiIvs5N6HhlnkpuEu7U1RRiu443JcEb+1ecJJpezTnYucZgWawB1cZ8k39DTr5M
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABfBpsjYMTEYTpL5Ckg24aHQlDZtWDwiRQLWBFadf/AzDXBoNYZ20I5fP5EXFc5gTnXENBZ0DOEzwPqnqbtGoCG3gAOMhvCXwqISfVUBuK98+0is2WI3A2gTOFPBWTc87MvscRboupZ0iU/nkUL+yO5pkTSYtQu0WMcuZA2xCBOBwFn4/4fWMU5T3OZ0bzZcLM=
+     code : |1-
+      constant 
+      	CST_DISTANCE = 10000 // ici, on a choisi un rayon de 10 kms pour la recherche
+      	PREF_SUIVI_INITIALISÉ = "PREF_SUIVI_INITIALISÉ" // Pour initialiser le geosuivi la première fois
+      fin
+      
+      
+      ///////////////////////////////////////////////////////////////////////////////////////
+      // GEOSUIVI
+      // Définition de la procédure appelée lorsque la position de l’utilisateur a changé.
+      // La fonction géoSuiviProcédure doit être appelée dans le code d’initialisation du projet. 
+      // En effet, la procédure WLangage peut être appelée juste après l’initialisation par exemple dans le cas d’un réveil en mode arrière-plan.
+      géoSuiviProcédure(ProcédureSuivi)
+      
+      si ChargeParamètre(PREF_SUIVI_INITIALISÉ,"") = "" ALORS
+      	// Activation du geosuivi
+      	géoSuiviActive(ValideActivationSuivi)
+      FIN
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Android Geolocalisation
+     identifier : 0x42cbe8be002535ad
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : iOS Geolocalisation
+     identifier : 0x44d0d5af0034b11b
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

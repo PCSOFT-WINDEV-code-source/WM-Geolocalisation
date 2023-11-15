@@ -1,0 +1,88 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_GeoSuivi
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1a18208c007be7e5
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : ProcédureSuivi
+     procedure_id : 1880289184153919530
+     type_code : 15
+     code : |1+
+      // Résumé : Procédure WLangage appelée lorsque la position de l’utilisateur a changé
+      // Syntaxe :
+      //ProcédureSuivi (<mPosition> est géoPosition)
+      //
+      // Paramètres :
+      //	mPosition (géoPosition) : Position de l'utilisateur
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE ProcédureSuivi(mPosition est une géoPosition)
+      
+      trace("Position récupérée : " + mPosition.Latitude + " " + mPosition.Longitude)
+      
+      // La fonction géoSuiviProcédure peut être utilisée en mode arrière-plan. 
+      // Il est recommandé de ne pas accéder à l’interface ou d’ouvrir des fenêtres dans la procédure WLangage car le système n'autorise pas les accès à l'interface lorsque l'application est en arrière plan.
+      
+      // Dans cette procédure vous pouvez, par exemple, envoyer la position sur un serveur
+      // EnvoiePositionSurServeur(mPosition)
+      trace("Envoi de la position sur le serveur...")
+     type : 458752
+   -
+     name : ValideActivationSuivi
+     internal_properties : CAAAAAgAAACVt9JLzBoxu7fId51OHzUZ+qF9vK3BaQERWZ201YdqFOBECawm61L0UaTI5Vif4iA6kMfLOBJA1wiluqLGyqKDglZjsu99Ky9G5DDmhQwPnntRCSlAWtrnyyvZ7yJWNNlMyuMd/U8GE8PFt2IRkkEwQlcFQKnfr9rPmYF3GIvPLvKfsd+1QyVOTvahIYDb3U7h/unutIEKdXVEZON1KZ98oGQ=
+     procedure_id : 1880296090462676995
+     type_code : 15
+     code : |1+
+      
+      // Résumé : Gestion de l'enregistrement du geosuivi
+      // Syntaxe :
+      //ValideActivationSuivi (<bSuiviActif> est booléen, <cErreur> est chaîne)
+      //
+      // Paramètres :
+      //	bSuiviActif (booléen) : Vrai si le geosuivi est actif
+      //	cErreur (chaîne UNICODE) : Erreur
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE ValideActivationSuivi(bSuiviActif est booléen, cErreur est une chaîne)
+      
+      SI PAS bSuiviActif ALORS
+      	Erreur(cErreur)
+      	RETOUR
+      SINON
+      	SauveParamètre(PREF_SUIVI_INITIALISÉ,"ok")
+      FIN
+      
+      Si FenEtat("FEN_GeoSuivi") <> Inexistant ALORS
+      	FEN_GeoSuivi.INT_Geosuivi = bSuiviActif
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fbce82a06038b32
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

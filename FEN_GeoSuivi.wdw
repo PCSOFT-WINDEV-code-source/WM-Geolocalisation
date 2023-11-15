@@ -1,0 +1,139 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_GeoSuivi
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_GeoSuivi
+ identifier : 0x2a183c820fad1ed1
+ internal_properties : CAAAAAgAAAAVmCTROP5YnLA8KXS+jah3OKoSarvJCnqaYjyp0NJbRvFXdeYScN1xAwqHcOIrVOg14ZxG6nTzWEXr7kCrA4q2N+xav89ZV84Dq4v3CGX/pm2dKwM5qV6Qkn+SYFLIuxY//Qeyd1lcXBr3Ub94IUrOeygU1uuuJTQdPECNyvMK+PJAE4LXuGsTHfRDdBQDLjP3Jm+aodce/1BbEflZbp0p/m6SZyNsIDa/vonKqu8MB4/HhiPEOz8kyA7mKHeTEIanaxJ2QVz95Ij+IuFuyZVWNftO08lFybVDcpILJmgi3X8WTiOlQGz9GDUTjGmvtRQWoaZ8uGYtTV6x2m8thcdtKa9+oMa6BllEGMcX17SKR3n+QnqZNCGxcGlcBSd+3ISyEuuz3WN5ynkWogG5TPvFHPhDgmtx2d4KQxzRYX9mSCXqUROSrFbCynzt3WCT7FoJjfP0yagzr7njFxEfJo006A1Oc7NPjXI3Fk0aV7yjOc58nSIPzWEqeevYaUwA2Xs07oE0g6OQ0gNQgzg2Nbqmj/VgGSPVD8nvLq0M+NizJ7L335csTiKn0/NOA6mq5x8HIQOU/DRhKDxiiWMQFawcGTaVpYAc5eWpuBctjPH9LvrGRZcUYGhTqdZdC/Z2hBKHdVIgOfs6buQQP9DNvmiqv1D1h4EbVLAgpNk7+a3dq8BM5FW+8WhHnWFwe1QUIWvdj1qM77Hxt5GtgHJxuongWubUELNTnrw5kpG5poX6pxwacjdw3f8v5i/ef5xA+AgJ
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : INT_Geosuivi
+    identifier : 0x2a183c9f0fb591fd
+    internal_properties : CAAAAAgAAACu+D7EKhPRGtLD4aMvreKvJbaTMqvXvlUyLKzlfU1KOaTvIt+jBK7N80+MFHZkd/RbrqoAz1ooaqWecfW75CLEXo7VI2YCS5cLCg8ODmjqG7R7vhdDXEdreSw+wewUu7fcogufOv1v0po/iZlj7UEiqa8LT3lAaQXcmj/iEPKgrunlxyxLIOvnG8EEGBwtjhbcmjnpqNfNJCsCPEW/D9xORukaPL8pTz51UEHkJQD2Q8tHxmgq+2kn1NflKWsW8RdlQI7YwTkM1EKSZGvONsH1uN5yukqk+MdLOcD0L9m1uXJhMiv0oft1z6RXpB85u+C6d179GTD4sj9rs5awkADrSx+iaqR9dhm/c2+WoJ2NDEZgFujtv97spu/PXKN09abhcxV9ZywO5iLMYwaCBjaZXXhbwEL0H1OeFSmIuYvxeJxxu12BXzGa9gv9eZ46IXJ+QDRlu61cKZh1rjstCpwS8Ux8noJws0nBZkEBSZOdhr6L8INxTHefWa1ne5uAQ+ro9VApVVEPDjkvxKcK7N+D54JUiy/knS3F3gxPDAkVPSIW9qwCrpc3IhGQX4qxi3cCm71Qj29a4Ex+BrTnm1TOS/sB/ATWsQ9zfSFkxUwMiiozkUbYrD9VLQdQ20EWWo4kR6r5BWYjOJ5PcM/PNMKGqhv7wDyuXX3HurZkvXVHtSmg5O55XX1e/4DuNrymJDq2SOLRL4W0VkGdXxZwcXuYYmKkXc2SNwUL6wt60n7zPMZ9aRvWVqqWA6VfibplEbpGQt2zK0rafvAIZNxC3vpvvm3WBlTp/ymU0xLwv0HfdhKD+79pivVV6of/JhnUqUjRFOzZsgsvWuLV9PYvkaH3NR9ZXLK8GxEwKJbWBWkYbOQcE9xgzEGm9e7D7BLV2koxOnHhl1rsilvS2VDgxcAE+Gw3/Yb2rX8JbNfAEiMG0cQ+2YwZIf700t14Zw==
+    properties :
+     x : 16
+     y : 169
+     width : 224
+     height : 37
+    options :
+     -
+       internal_properties : CAAAAAgAAABjFv4mZllzgzmeQKXTFm2SneGjScpwZiN+PoMKaGBsFBedCFWxblypgHaFn3eeR8SUPcriGfxiDNUUpuwL3tSOfMFNcqm27j4QX4uzHEVeMnQClL9zspaEvs7ZOe8EqGndwiIPWIfRfS84yIn3FpAKpQzofCJdADbPYbcN25Xeq2RO3g==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1+
+         
+         moimeme = (géoSuiviEtat() = géoSuiviActivé)
+        type : 14
+      -
+        code : |1-
+         
+         si géoSuiviEtat() = géoSuiviActivé ALORS
+         	// Désactivation
+         	géoSuiviDésactive()
+         SINON
+         	// Activation
+         	géoSuiviActive(ValideActivationSuivi)
+         FIN
+        type : 17
+  -
+    name : LIB_Explication
+    identifier : 0x2a183d3810aae96b
+    internal_properties : CAAAAAgAAADw61ZssMwfduTKjJxG8SMmCVSU3OmS3yno47vigxKlyonre34juutfz+qF9JYKcMRbtatY0SaZI9Eg3gbPvAiI72sQjudpsyvPGyCGgZf2Nw0bIMy769mmHRnIdNdmiAh7x+YZ4ofCIxEFBr/+bsdOqhFPuh8BJgWwSSeYB0TOAuBbHvfwVYxbLx5lFv+IBCAp/OszI2BU8ipicLen0xbLQV8MQSaXAe1HX1mh6EPAih3pcuzrUmxPcGOG7w9xZptfTlvnjec6wRtYaAXYflBOI3GrThm5QvTzuPrB73MsmGbesfln9ZkpCkHCemTfKFrnROafQkNvxThVtPGzywXsPGKZviYuD4KtMzrHOpu5GY8j+oNC2gPc4uRu4FA0vM1eGPWiZi4kqzxGL3VWug/InE7avxYAk+ExBnEuSHHzyhxJ/41hAS1wKqBbKATQpCt6WSuUG3N6QV4EdR+NduziJTsyWZz3Y9gtX2TKexL574034nuAzAojUHEWzHyN1ApOSFDIdUluuNt+V6XjxRUf3iHIWZeX236p/Y9607gV4bIqqo45B1OY45UAyDaB2cW0dNMYDMmXgAEhxP6AHQnmnWFECp0D1WQwA+c4nnAn5acdjbowE2jnx3MkIEK6Hrye9gM7Vkh8m7v+rcqgIP0gI9aKlfHRWlJd/yO5vAlZe/t/psiqQHRet1CXg6rcdZvF6UltpRtcNxsDBfECQM34P93f1oUP6w+gJhG95+3BhMYfSKn9lOM=
+    properties :
+     x : 16
+     y : 8
+     width : 288
+     height : 163
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2a183c820fae1ed1
+  internal_properties : CAAAAAgAAADauRq0crzEDf7MY+nPoSMS5YJDLObr9Jqdngv0ULOPW8CJNOiOm2e3/UscLX/3NLGtqeg7yQbWYzKryxA1nW0c6ijCsXqDztw/tqMwWFPO09TX9mVLYJ8dR+x8MXzgIhN3LuwYzkDy1oFRI8Ftl3KeklcR3s02N9/GIdOhB5CsLxcc9b9Ki6J0aWpyXUCb5VHppvjaGRx04vbzq1le2aYsdCwA7prVNMMSTzqB0TfFedALurKnyh1meNqtZ00/xhVnk5+e5WBDQyXWImyaKL4AVk9EzlR9W5dgMbWbM58ypXSj4ASjSuh9sqzP1Lqrk463PqVgvjgzVk0GmRPo+jjKVkAE5f9heo3rFl5n8Gk4WH7NlYZNpOnfmm1yxOnfkaQD9AcC0zUVBumYral3C+qtwGumP2HggMKavcAwHaOu3EEYZLAjvA==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbce82a06078b32
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
